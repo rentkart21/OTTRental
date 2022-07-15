@@ -9,6 +9,12 @@ flex-direction: column!important;
 justify-content: center!important;
     }
   }
+  
+ @media only screen and (max-width:370px) {
+    .mediaque01{
+        margin-left: -22px;
+    }
+  }
 
 @media only screen and (max-width:600px) {
     .cardtemp{
