@@ -1,0 +1,32 @@
+footer a:hover{
+    color: blue!important;
+}
+
+@media only screen and (max-width:992px) {
+    .mediaque01{
+        display: flex!important;
+flex-direction: column!important;
+justify-content: center!important;
+    }
+  }
+
+@media only screen and (max-width:600px) {
+    .cardtemp{
+        width: 18rem!important;
+        text-align: center !important;
+
+    }
+    .slider{
+        height: 400px;
+    }
+  }
+
+
+/* @media only screen and (min-width:500px) {
+    .cardtemp{
+        width: 22rem!important;
+        text-align: center !important;
+
+    }
+  } */
+
